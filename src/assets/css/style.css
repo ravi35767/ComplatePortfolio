@@ -1,0 +1,194 @@
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #040b14;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a:hover {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    /* font-size: 25px; */
+    color: #818181;
+    display: block;
+  }
+  
+  
+  .profileCircle{
+    height: 100px !important;
+    border-radius:50% ;
+    width: 100px;
+  }
+  .main {
+    /* margin-left: 18px;  */
+    /* width: 200% !important; */
+  }
+  /* .textDecoratoion{
+    background-color: blue;
+    position: relative;
+    left: 30%;
+  }  */
+  
+
+
+.profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 4px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu .active > a, .nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+  /* @media screen and (max-height: 425px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .main {
+        margin-left: 85px; /* Same as the width of the sidenav */
+        /* width:85% !important;
+        height: 350px !important;
+      }
+      
+  } */ 
+  
+  
+  .centered {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: white;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  
+  .text_1 {
+    animation: text1;
+  }
+  
+  .text_2 {
+    animation: text2;
+  }
+  
+  .text_1, .text_2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 20s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+  }
+  
+  .text_1::after, .text_2::after {
+    content: "|";
+    position: absolute;
+    border-right: .15em solid blue;
+    right: 10;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+  }
+  
+  @keyframes text2 {
+    0%, 50%, 100% {
+      width: 0;
+    }
+    
+    60%, 90% {
+      width: 21.2em;
+    }
+  }
+  
+  @keyframes text1 {
+    0%, 50%, 100% {
+      width: 0;
+    }
+    10%, 40% {
+      width: 17em;
+    }
+  }
+  
+  @keyframes caret {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  .myprojectsHandler{
+    /* background-color: blue !important; */
+    position: relative;
+    margin-left: 20% !important;
+  }
+  .page-footer{
+    position: relative;
+    margin-left:26% !important;
+    width: 110% !important;
+    
+  }
+
+  /* AboutMe Css */
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  
+  .whoAmI {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  p.aboutText{
+    position: relative;
+    left: 15% !important;
+    padding: 2% !important;
+  }
+  /* Resume */
+  .resume hr{
+    height:5px;
+    background-color:black;
+    
+}
